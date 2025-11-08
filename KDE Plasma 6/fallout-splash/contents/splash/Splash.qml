@@ -16,25 +16,18 @@ Rectangle {
         id: content
         anchors.fill: parent
         opacity: 0
-        TextMetrics {
-            id: units
-            text: "M"
-            property int gridUnit: boundingRect.height
-            property int largeSpacing: units.gridUnit
-            property int smallSpacing: Math.max(2, gridUnit/4)
-        }
 
         Rectangle {
             id: imageSource
-            width: Math.min(parent.width, parent.height) * 0.9
-            height: Math.min(parent.width, parent.height) * 0.9
+            width: parent.width
+            height: parent.height
             color: "transparent"
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
             clip: true
 
             AnimatedImage {
-                id: face
+                id: welcome_to_the_wastes
                 source: "images/fallout-splash.gif"
                 paused: false
                 anchors.centerIn: parent
@@ -46,15 +39,7 @@ Rectangle {
             }
         }
 
-        Row {
-            opacity: 1
-            spacing: units.smallSpacing*3
-            anchors {
-                bottom: parent.bottom
-                margins: units.gridUnit
-            }
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
+
     }
 
     OpacityAnimator {
