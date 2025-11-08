@@ -1,0 +1,19 @@
+{
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "joshua@uuinc.co",
+				"Name": "UU"
+			}
+		],
+		"Category": "Splashscreen",
+		"Description": "Fallout Animated Splash Screen - TV Please Standby",
+		"Id": "fallout-splash",
+		"License": "GPLv3",
+		"Name": "Fallout Animated Please Standby",
+		"ServiceTypes": ["Plasma/LookAndFeel"],
+		"Website": "https://github.com/joshuadoubleyou/fallout-splash"
+	},
+	"Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+	"X-Plasma-MainScript": "defaults"
+}
