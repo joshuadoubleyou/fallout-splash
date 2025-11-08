@@ -10,7 +10,7 @@
 		"Description": "Fallout Animated Splash Screen - TV Please Standby",
 		"Id": "fallout-splash",
 		"License": "GPLv3",
-		"Name": "Fallout Animated Please Standby",
+		"Name": "fallout-splash",
 		"ServiceTypes": ["Plasma/LookAndFeel/Splash"],
 		"Website": "https://github.com/joshuadoubleyou/fallout-splash"
 	},

@@ -11,9 +11,9 @@
         "Description": "Fallout Animated Splash Screen - TV Please Standby [kde6]",
         "Id": "fallout-splash",
 		"License": "GPLv3",
-        "Name": "Fallout Animated Splash - Please Standby",
+        "Name": "fallout-splash",
 		"Website": "https://github.com/joshuadoubleyou/fallout-splash"
     },
-    "Keywords": "loop;load;fallout",
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
     "X-Plasma-APIVersion": "2"
 }
